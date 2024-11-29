@@ -1,0 +1,18 @@
+/* FILTRO */
+
+.menu-lista{
+    background-color: map-get($color , blanco4 );
+    width: 18.75rem;
+    height: 15.625rem;
+    border-radius: .625rem;
+}
+
+.letra-lista li a{
+    color: map-get($color , gris3 );
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Poppins", system-ui;
+    padding-left: 1.875rem;
+    @include flex(none,none,none,none);
+    padding-top: 1.875rem;
+}

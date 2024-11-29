@@ -1,0 +1,93 @@
+@media (max-width:1011px){
+    .carrusel a img{
+        height: 24.375rem;
+        width: 100%;
+    }
+    
+    .fondo-producto-1{
+        background-color: white;
+        width: 17.5rem;
+        height: 17.5rem;
+        border-radius: .625rem;
+        position: relative;
+    }
+    
+    .cuotas-background{
+        background-color: #318CE7;
+        width: 17.5rem;
+        height: 1.25rem;
+        border-radius: .625rem .625rem 0rem 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagen-cofre a img{
+        width: 180px;
+        height: 125px;
+    }
+    .texto-producto h2{
+        font-family: "Poppins", system-ui;
+        font-size: 1.125rem;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .texto-producto h3{
+        font-family: "Poppins", system-ui;
+        font-size: 1rem;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto-producto h4{
+        font-family: "Poppins", system-ui;
+        font-size: .6875rem;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        color: #505050;
+    }
+    
+    .texto-producto-2 h2{
+        font-family: "Poppins", system-ui;
+        font-size: 1.125rem;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .texto-producto-3 h4{
+        font-family: "Poppins", system-ui;
+        font-size: .6875rem;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        color: #318CE7;
+    }
+
+    .padding-left{
+        padding-left: 20px;
+    }
+    
+    .padding-right-2{
+        padding-right: 20px;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .background-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        height: 310px;
+    }
+}

@@ -1,0 +1,35 @@
+// MARCAS
+
+.marcas-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 5;
+    gap: 12.5rem;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+}
+
+.letra-marcas h3{
+    color: map-get($color , negro );
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Poppins", system-ui;
+}
+
+.marcas li a{
+    color: map-get($color , gris3 );
+    font-size: 1.25rem;
+    font-family: "Poppins", system-ui;
+}
+.centrar-container{
+    @include flex(none,none,center,none);
+}
+
+.titulo-1 h2{
+    font-family: "Poppins", system-ui;
+    font-size: 1.5625rem;
+    font-weight: 500;
+    @include flex(none,none,center,center);
+    background-color: map-get($color , blanco4 );
+    height: 3.125rem;
+}

@@ -1,0 +1,114 @@
+/* FRAGANCIAS DE HOMBRE */
+
+.titulo-2 h2{
+    font-family: "Poppins", system-ui;
+    font-size: 1.5625rem;
+    font-weight: 500;
+    @include flex(none,none,center,center);
+    background-color: map-get($color , blanco4 );
+    height: 3.125rem;
+}
+
+.cuotas-background-3{
+    background-color: map-get($color , azul );
+    width: 19.125rem;
+    height: 1.25rem;
+    border-radius: .625rem .625rem 0rem 0rem;
+    @include flex(none,none,center,center);
+}
+
+.cuotas-background-3 h4{
+    color: map-get($color , blanco );
+    font-size: .875rem;
+    font-weight: 400;
+    font-family: "Poppins", system-ui;
+}
+
+.background-productos-2{
+    background-color: map-get($color , blanco );
+    border: .0625rem solid map-get($color , blanco2 );
+    width: 19.125rem;
+    height: 22.8125rem;
+    border-radius: .625rem;
+    margin-bottom: 1.875rem;
+    position: relative;
+}
+
+.marca h2{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Poppins", system-ui;
+    @include flex(none,none,center,none);
+    margin-top: .6875rem;
+}
+
+.modelo h3{
+    font-family: "Poppins", system-ui;
+    font-size: .875rem;
+    font-weight: 500;
+    @include flex(none,none,center,none);
+    margin-top: .6875rem;
+}
+
+.marca-2 h2{
+    font-family: "Poppins", system-ui;
+    font-size: .875rem;
+    font-weight: 400;
+    @include flex(none,none,center,none);
+    margin-top: .6875rem;
+}
+
+.cuotas h4{
+    color: map-get($color , azul );
+    font-family: "Poppins", system-ui;
+    font-size: .75rem;
+    font-weight: 500;
+    @include flex(none,none,center,none);
+    margin-top: .6875rem;
+}
+
+.columna-fragancias{
+    @include flex(none,none,space-between,center);
+}
+
+.display-flex{
+    @include flex(none,none,space-between,none);
+    padding-top: 1.875rem;
+    padding-left: 1.875rem;
+    padding-right: 10.9375rem;
+}
+
+/* BOTON VER MAS */
+
+.ver-mas a{
+    color: map-get($color , azul );
+    font-family: "Poppins", system-ui;
+    font-size: .875rem;
+}
+
+.ver-mas{
+    padding-bottom: 1.875rem;
+    padding-left: 67.5rem;
+}
+
+/* CUARTA PAGINA COFRES Y SETS */
+
+.titulo-3 h2{
+    font-family: "Poppins", system-ui;
+    font-size: 1.5625rem;
+    font-weight: 500;
+    @include flex(none,none,center,center);
+    background-color: map-get($color , blanco4 );
+    height: 3.125rem;
+}
+
+/* QUINTA PAGINA DESCUENTOS HASTA 50% OFF */
+
+.titulo-4 h2{
+    font-family: "Poppins", system-ui;
+    font-size: 1.5625rem;
+    font-weight: 500;
+    @include flex(none,none,center,center);
+    background-color: map-get($color , blanco4 );
+    height: 3.125rem;
+}

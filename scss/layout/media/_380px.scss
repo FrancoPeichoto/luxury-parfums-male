@@ -1,0 +1,23 @@
+@media (max-width:380px){
+    .marcas-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 5;
+        gap: 1.5625rem;
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
+    }
+
+    .letra-marcas h3{
+        color: black;
+        font-size: 1.125rem;
+        font-weight: 500;
+        font-family: "Poppins", system-ui;
+    }
+    
+    .marcas li a{
+        color: #353535;
+        font-size: .875rem;
+        font-family: "Poppins", system-ui;
+    }
+}

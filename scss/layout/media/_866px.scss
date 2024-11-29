@@ -1,0 +1,26 @@
+@media (max-width:866px){
+    .menu-lista{
+        display: none;
+    }
+
+    .display-flex{
+        display: flex;
+        justify-content: center;
+        padding-top: 1.875rem;
+        gap: 1.875rem;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .container-productos{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .ver-mas{
+        padding-bottom: 1.875rem;
+        padding-left: 0rem;
+        display: flex;
+        justify-content: center;
+    }
+}

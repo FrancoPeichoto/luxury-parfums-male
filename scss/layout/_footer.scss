@@ -1,0 +1,43 @@
+/* FOOTER */
+
+.background-footer{
+    background-color: map-get($color , negro );
+    height: 12.5rem;
+}
+
+.flex-footer{
+    @include flex(none,none,space-around,none);
+}
+
+.texto-footer{
+    color: map-get($color , blanco );
+    @include flex(column,none,none,center);
+    gap: .9375rem;
+    margin-top: .75rem;
+}
+
+.texto-footer a{
+    color: map-get($color , blanco );
+    display: flex;
+}
+
+.texto-footer h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: map-get($color , blanco );
+    font-family: "Poppins", system-ui;
+}
+
+.texto-footer h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: map-get($color , blanco );
+    font-family: "Poppins", system-ui;
+}
+
+.texto-footer a{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: map-get($color , blanco );
+    font-family: "Poppins", system-ui;
+}

@@ -1,0 +1,210 @@
+@media (max-width:916px){
+    .buscar{
+        display: none;
+    }
+    
+    .titulo a h1{
+        color: black;
+        font-size: 2.1875rem;
+        font-weight: 500;
+    }
+    
+    .titulo a h2{
+        color: black;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    .titulo{
+        display: flex;
+        justify-content: center;
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+    
+    .carrusel a img{
+        height: 21.875rem;
+        width: 100%;
+    }
+
+    .publicidad div a img{
+        width: 23.75rem;
+        height: 11.875rem;
+    }
+
+    .publicidades a img{
+        width: 16.25rem;
+        height: 18.125rem;
+    }
+
+    .background-productos{
+        background-color: #ffffff;
+        width: 10rem;
+        height: 18.125rem;
+        border-radius: .625rem;
+        border: .0625rem solid #C0C0C0;
+    }
+
+    .cuotas-background-2{
+        background-color: #318CE7;
+        width: 10rem;
+        height: 1.0625rem;
+        border-radius: .625rem .625rem 0rem 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagen-productos a img{
+        display: flex;
+        justify-content: center;
+        width: 9.875rem;
+        height: 10rem;
+    }
+
+    .texto-marcas h2{
+        color: black;
+        font-size: .875rem;
+        font-weight: 500;
+        font-family: "Poppins", system-ui;
+        display: flex;
+        justify-content: center;
+        padding-top: .3125rem;
+        padding-bottom: .25rem;
+    }
+    
+    .texto-marcas h3{
+        color: black;
+        font-size: .75rem;
+        font-weight: 400;
+        font-family: "Poppins", system-ui;
+        display: flex;
+        justify-content: center;
+        padding-bottom: .3125rem;
+    }
+    
+    .texto-marcas-2 h2{
+        color: black;
+        font-size: .875rem;
+        font-weight: 500;
+        font-family: "Poppins", system-ui;
+        display: flex;
+        justify-content: center;
+        padding-bottom: .3125rem;
+    }
+    
+    .texto-marcas h4{
+        color: #318CE7;
+        font-size: .75rem;
+        font-weight: 400;
+        font-family: "Poppins", system-ui;
+        display: flex;
+        justify-content: center;
+        padding-bottom: .3125rem;
+    }
+
+    .barra-navegacion-txt{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4.6875rem;
+        padding-left: 4.6875rem;
+    }
+
+    .barra-navegacion-txt a{
+        font-size: 1.0625rem;
+        color: white;
+        align-items: center;
+    }
+
+    .nuestras-redes div h2{
+        font-size: 1.75rem;
+        font-weight: 400;
+        font-family: "Poppins", system-ui;
+        margin-left: 3.125rem;
+    }
+
+    /* .facebook-gap a img{
+        width: 4.125rem;
+        height: 2.5rem;
+    } */
+
+    .facebook-gap{
+        margin-left: 1.25rem;
+    }
+
+    .redes{
+        display: flex;
+        align-items: center;
+        gap: 3.125rem;
+    }
+
+    .menu-hamburguesa{
+        display: flex;
+        margin-right: 1.875rem;
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+
+    .titulo-buscar-iconos{
+        justify-content: space-between;
+    }
+
+    .barra-navegacion{
+        display: none;
+    }
+
+    .menu-hamburguesa{
+        display: flex;
+        margin-right: 1.875rem;
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+
+    .titulo-1 h2{
+        color: white;
+        font-family: "Poppins", system-ui;
+        font-size: 1.5625rem;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        height: 2.5rem;
+    }
+    
+    .titulo-2 h2{
+        color: white;
+        font-family: "Poppins", system-ui;
+        font-size: 1.5625rem;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        height: 40px;
+    }
+
+    .titulo-3 h2{
+        color: white;
+        font-family: "Poppins", system-ui;
+        font-size: 1.5625rem;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        height: 2.5rem;
+    }
+    
+    .titulo-4 h2{
+        color: white;
+        font-family: "Poppins", system-ui;
+        font-size: 1.5625rem;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        height: 2.5rem;
+    }
+}

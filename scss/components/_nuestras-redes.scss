@@ -1,0 +1,31 @@
+/* REDES */
+
+.nuestras-redes{
+    background-color: #E0E0E0;
+    display: flex;
+    align-items: center;
+    height: 8.375rem;
+    justify-content: center;
+}
+
+.nuestras-redes div h2{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: "Poppins", system-ui;
+    /* margin-left: 4.6875rem; */
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    /* gap: 4.6875rem; */
+}
+
+.facebook-gap{
+    margin-left: 2.5rem
+}
+
+.hover-redes:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}

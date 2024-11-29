@@ -1,0 +1,61 @@
+@media (max-width:778px){
+    .item1{
+        display: none;
+    }
+
+    .item2{
+        display: none;
+    }
+
+    .item3{
+        display: none;
+    }
+
+    .publicidad div a img{
+        width: 19rem;
+        height: 9.5rem;
+    }
+
+    .texto-footer h2{
+        font-size: 1.25rem;
+    }
+
+    .texto-footer h3{
+        font-size: 1rem;
+    }
+
+    .texto-footer a{
+        font-size: 1rem;
+    }
+
+    .nuestras-redes{
+        flex-direction: column;
+    }
+
+    .nuestras-redes div h2{
+        font-size: 1.75rem;
+        font-weight: 400;
+        font-family: "Poppins", system-ui;
+        margin-left: 0px;
+        margin-bottom: .9375rem;
+    }
+
+    .carrusel a img{
+        height: 18.75rem;
+    }
+
+    .logo-marcas-1 a img{
+        width: 13.5rem;
+        height: 3.5rem;
+    }
+
+    .logo-marcas-2 a img{
+        width: 12.125rem;
+        height: 3.375rem;
+    }
+
+    .logo-marcas-3 a img{
+        width: 13.5rem;
+        height: 5.625rem;
+    }
+}

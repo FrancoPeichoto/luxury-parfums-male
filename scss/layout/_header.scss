@@ -1,0 +1,78 @@
+/* 3, 6, 9 Y 12 CUOTAS SIN INTERES */
+
+.cuotas-sin-interes a h2{
+    color: map-get($color , blanco );
+    font-weight: 500;
+    font-size: 1.25rem;
+    font-family: "Poppins", system-ui;
+}
+
+.cuotas-sin-interes{
+    background-color: map-get($color , negro );
+    height: 2.1875rem;
+    width: 100%;
+    @include flex(none,none,center,center);
+}
+
+/* LOGO Y BARRA DE BUSQUEDA */
+
+.titulo a h1{
+    color: map-get($color , negro );
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.titulo a h2{
+    color: map-get($color , negro );
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.titulo{
+    @include flex(none,none,center,none);
+    padding-right: 26.25rem;
+    padding-left: 5rem;
+}
+
+.titulo-buscar-iconos{
+    @include flex(none,none,baseline,center);
+    background-color: map-get($color , blanco );
+    height: 8.125rem;
+}
+
+.buscar input{
+    border-radius: .4375rem;
+    height: 2.1875rem;
+    width: 25rem;
+    padding-left: .625rem;
+    border: 1px solid map-get($color , gris1 );
+}
+
+.menu-hamburguesa{
+    display: none;
+}
+
+/* BARRA DE NAVEGACION */
+
+.barra-navegacion{
+    background-color: map-get($color , negro );
+    height: 6.25rem;
+    @include flex(none,wrap,none,center);
+}
+
+.barra-navegacion-txt a{
+    font-size: 1.25rem;
+    color: map-get($color , blanco );
+    @include flex(none,none,none,center);
+}
+
+.barra-navegacion-txt{
+    @include flex(none,wrap,none,none);
+    gap: 6.25rem;
+    padding-left: 5rem;
+}
+
+.hover-nav ul a:hover {
+    color: map-get($color , gris1 );
+    transition: color 0.3s ease;
+}

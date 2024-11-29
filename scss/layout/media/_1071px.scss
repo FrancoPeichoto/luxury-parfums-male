@@ -1,0 +1,92 @@
+@media (max-width:1071px){
+    .carrusel a img{
+        height: 26.875rem;
+        width: 100%;
+    }
+    
+    .titulo{
+        display: flex;
+        justify-content: center;
+        padding-right: 6.25rem;
+        padding-left: 5rem;
+    }
+
+    .padding-right-2{
+        padding-right: 25px;
+    }
+
+    .padding-left{
+        padding-left: 1.5625rem;
+    }
+
+    .publicidades a img{
+        width: 18.125rem;
+        height: 20rem;
+    }
+    
+    .background-productos{
+        background-color: #ffffff;
+        width: 12.5rem;
+        height: 20rem;
+        border-radius: .625rem;
+        border: .0625rem solid #C0C0C0;
+    }
+    
+    .cuotas-background-2{
+        background-color: #318CE7;
+        width: 12.5rem;
+        height: 1.1875rem;
+        border-radius: .625rem .625rem 0rem 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagen-productos a img{
+        display: flex;
+        justify-content: center;
+        width: 12.375rem;
+        height: 11.875rem;
+    }
+
+    .texto-marcas h2{
+        color: black;
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: "Poppins", system-ui;
+        display: flex;
+        justify-content: center;
+        padding-top: .3125rem;
+        padding-bottom: .25rem;
+    }
+    
+    .texto-marcas h3{
+        color: black;
+        font-size: .875rem;
+        font-weight: 500;
+        font-family: "Poppins", system-ui;
+        display: flex;
+        justify-content: center;
+        padding-bottom: .3125rem;
+    }
+    
+    .texto-marcas-2 h2{
+        color: black;
+        font-size: .875rem;
+        font-weight: 400;
+        font-family: "Poppins", system-ui;
+        display: flex;
+        justify-content: center;
+        padding-bottom: .3125rem;
+    }
+    
+    .texto-marcas h4{
+        color: #318CE7;
+        font-size: .75rem;
+        font-weight: 400;
+        font-family: "Poppins", system-ui;
+        display: flex;
+        justify-content: center;
+        padding-bottom: .3125rem;
+    }
+}

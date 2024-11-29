@@ -1,0 +1,10 @@
+@media (max-width:1100px){
+    .marcas-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 5;
+        gap: 3.125rem;
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
+    }
+}

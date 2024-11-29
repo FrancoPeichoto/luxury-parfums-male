@@ -1,0 +1,68 @@
+@media (max-width:1430px){
+    .background-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        height: 21.5625rem;
+    }
+    
+    .fondo-producto-1{
+        background-color: white;
+        width: 320px;
+        height: 320px;
+        border-radius: .625rem;
+        position: relative;
+    }
+    
+    .cuotas-background{
+        background-color: #318CE7;
+        width: 320px;
+        height: 1.25rem;
+        border-radius: .625rem .625rem 0rem 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagen-cofre a img{
+        width: 210px;
+        height: 160px;
+    }
+    .texto-producto h2{
+        font-family: "Poppins", system-ui;
+        font-size: 1.25rem;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .texto-producto h3{
+        font-family: "Poppins", system-ui;
+        font-size: 16px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .texto-producto-3 h4{
+        font-family: "Poppins", system-ui;
+        font-size: .6875rem;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        color: #318CE7;
+    }
+
+    .publicidad div a img{
+        width: 35rem;
+        height: 16rem;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

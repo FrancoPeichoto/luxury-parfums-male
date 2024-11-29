@@ -1,0 +1,106 @@
+/* MARCAS */
+
+.logo-marcas{
+    @include flex(none,none,center,none);
+    padding-top: 1.6875rem;
+    padding-bottom: 1.6875rem;
+}
+
+.background-productos{
+    background-color: map-get($color , blanco );
+    width: 16.875rem;
+    height: 27rem;
+    border-radius: .625rem;
+    border: .0625rem solid map-get($color , blanco2 );
+}
+
+.cuotas-background-2{
+    background-color: map-get($color , azul );
+    width: 16.875rem;
+    height: 1.1875rem;
+    border-radius: .625rem .625rem 0rem 0rem;
+    @include flex(none,none,center,center);
+}
+
+.cuotas-background-2 h4{
+    font-family: "Poppins", system-ui;
+    color: map-get($color , blanco );
+    font-size: .75rem;
+    font-weight: 400;
+}
+
+.imagen-productos{
+    @include flex(none,none,center,none);
+}
+
+.imagen-productos-2{
+    @include flex(none,none,center,none);
+}
+
+.texto-marcas h2{
+    color: map-get($color , negro );
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Poppins", system-ui;
+    @include flex(none,none,center,none);
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+.texto-marcas h3{
+    color: map-get($color , negro );
+    font-size: .875rem;
+    font-weight: 500;
+    font-family: "Poppins", system-ui;
+    @include flex(none,none,center,none);
+    padding-bottom: .75rem;
+}
+
+.texto-marcas-2 h2{
+    color: map-get($color , negro );
+    font-size: .875rem;
+    font-weight: 400;
+    font-family: "Poppins", system-ui;
+    @include flex(none,none,center,none);
+    padding-bottom: .75rem;
+}
+
+.texto-marcas h4{
+    color: map-get($color , azul );
+    font-size: .75rem;
+    font-weight: 400;
+    font-family: "Poppins", system-ui;
+    @include flex(none,none,center,none);
+    padding-bottom: .6875rem;
+}
+
+.flex{
+    @include flex(none,none,space-between,none);
+    padding-left: 14.0625rem;
+    padding-right: 14.0625rem;
+}
+
+/* BOTON VER MAS */
+
+.boton a button{
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+    background-color: map-get($color , negro );
+    color: map-get($color , blanco );
+    border-radius: .625rem;
+    border: none;
+}
+
+.boton{
+    @include flex(none,none,center,none);
+    margin-top: 4.1875rem;
+    border: none;
+}
+
+.boton button:hover{
+    transform: scale(1.02);
+    background-color: map-get($color , gris3 );
+    transition: all 0.3s ease;
+}

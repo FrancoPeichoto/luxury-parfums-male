@@ -1,0 +1,57 @@
+@media (max-width:466px){
+    .carrusel a img{
+        height: 15.625rem;
+    }
+    
+    .publicidades a img{
+        margin-right: .625rem;
+    }
+
+    .titulo a h1{
+        color: black;
+        font-size: 1.875rem;
+        font-weight: 500;
+    }
+    
+    .titulo a h2{
+        color: black;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    .titulo{
+        display: flex;
+        justify-content: center;
+        padding-right: 3.125rem;
+        padding-left: 3.125rem;
+    }
+
+    .titulo-sets h2{
+        font-size: 1.5625rem;
+        font-family: "Poppins", system-ui;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .menu-hamburguesa{
+        width: 2.1875rem;
+        height: 2.1875rem;
+    }
+
+    .titulo-buscar-iconos{
+        display: flex;
+        align-items: center;
+        justify-content: baseline;
+        background-color: white;
+        height: 6.25rem;
+    }
+
+    .redes{
+        display: flex;
+        align-items: center;
+        gap: 1.875rem;
+    }
+}

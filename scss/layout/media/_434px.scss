@@ -1,0 +1,25 @@
+@media (max-width:434px){
+    .publicidades a img{
+        display: none;
+    }
+
+    .item4{
+        display: block;
+    }
+
+    .item5{
+        display: block;
+    }
+
+    .item6{
+        display: block;
+    }
+
+    .flex{
+        gap: 15px;
+    }
+
+    .titulo-sets h2{
+        font-size: 1.125rem;
+    }
+}

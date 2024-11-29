@@ -1,0 +1,53 @@
+@media (max-width:628px){
+    
+    
+    .publicidad div a img{
+        width: 25rem;
+        height: 13.125rem;
+    }
+    
+    .none{
+        display: none;
+    }
+
+    .item4{
+        display: none;
+    }
+
+    .item5{
+        display: none;
+    }
+
+    .item6{
+        display: none;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: center;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .publicidades a img{
+        margin-right: 1.5625rem;
+    }
+
+    .carrusel a img{
+        height: 17.1875rem;
+    }
+
+    .background-flex{
+        flex-direction: column;
+        height: 600px;
+        gap: .9375rem;
+    }
+
+    .background-footer{
+        height: 340px;
+    }
+
+    .flex-footer{
+        flex-direction: column;
+    }
+}

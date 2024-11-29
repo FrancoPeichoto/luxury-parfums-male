@@ -1,0 +1,121 @@
+/* SETS IMPERDIBLES PARA USTED */
+
+.background-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: map-get($color , negro );
+    height: 375px;
+}
+
+/* COFRES Y SETS */
+
+.titulo-sets h2{
+    font-size: 2rem;
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.fondo-producto-1{
+    background-color: map-get($color , blanco );
+    width: 21.875rem;
+    height: 21.875rem;
+    border-radius: .625rem;
+    position: relative;
+}
+
+.cuotas-background{
+    background-color: map-get($color , azul );
+    width: 21.875rem;
+    height: 1.25rem;
+    border-radius: .625rem .625rem 0rem 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuotas-background h4{
+    color: map-get($color , blanco );
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-size: .9375rem;
+}
+
+.imagen-cofre{
+    display: flex;
+    justify-content: center;
+}
+
+.descuento-producto  h4{
+    background-color: map-get($color , negro );
+    width: 2.5rem;
+    height: 2.5rem;
+    color: map-get($color , blanco );
+    border-radius: 62.4375rem;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", system-ui;
+    font-size: .75rem;
+    justify-content: center;
+}
+
+.descuento-producto{
+    display: flex;
+    justify-content: end;
+    padding-top: .625rem;
+    padding-right: .625rem;
+    position: absolute;
+    right: 0;
+}
+
+.texto-producto h2{
+    font-family: "Poppins", system-ui;
+    font-size: 1.25rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-producto-2 h2{
+    font-family: "Poppins", system-ui;
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-producto h3{
+    font-family: "Poppins", system-ui;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-producto h4{
+    font-family: "Poppins", system-ui;
+    font-size: .6875rem;
+    font-weight: 400;
+    @include flex(none,none,center,none);
+    color: map-get($color , gris2 );
+}
+
+.texto-producto-3 h4{
+    font-family: "Poppins", system-ui;
+    font-size: .6875rem;
+    font-weight: 500;
+    @include flex(none,none,center,none);
+    color: map-get($color , azul );
+}
+
+.padding-left{
+    padding-left: 9.375rem;
+}
+
+.padding-right{
+    padding-right: 9.375rem;
+}

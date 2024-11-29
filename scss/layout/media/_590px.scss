@@ -1,0 +1,17 @@
+@media (max-width:590px){
+    .display-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 0rem;
+        padding-left: 0rem;
+        padding-right: 0px;
+        align-items: center;
+    }
+
+    .container-productos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
